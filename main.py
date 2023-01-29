@@ -2,7 +2,7 @@ import random
 import smtplib
 import datetime as dt
 import random
-my_email = "pallavpv9999@gmail.com"
+my_email = "anurag.podder@gmail.com"
 password= "wqzcdtowibwtgfdt"
 
 now = dt.datetime.now()
@@ -18,7 +18,7 @@ if weekday == 1:
     connection.login(user=my_email, password=password)
     connection.sendmail(
         from_addr=my_email,
-        to_addrs="pallavpv200@gmail.com",
+        to_addrs="anurag.podder2@gmail.com",
         msg=f"Subject:Monday\n\n{quote}"
     )
     connection.close()
@@ -32,7 +32,7 @@ if weekday == 1:
 
 # import smtplib
 #
-# my_email = "pallavpv9999@gmail.com"
+# my_email = "anurag.podder@gmail.com"
 # password = "wqzcdtowibwtgfdt"
 # connection = smtplib.SMTP("smtp.gmail.com")
 #
@@ -40,7 +40,7 @@ if weekday == 1:
 # connection.login(user=my_email, password=password)
 # connection.sendmail(
 #     from_addr=my_email,
-#     to_addrs="pallavpv200@gmail.com",
+#     to_addrs="anurag.podder2@gmail.com",
 #     msg="Subject:hello\n\nThis is the body of Email"
 # )
 # connection.close()
@@ -48,13 +48,13 @@ if weekday == 1:
 
 # import smtplib
 #
-# my_email = "pallavpv9999@gmail.com"
+# my_email = "anurag.podder@gmail.com"
 # password = "wqzcdtowibwtgfdt"
 #
 # connection = smtplib.SMTP("smtp.gmail.com")
 # connection.starttls()
 # connection.login(user=my_email, password=password)
-# connection.sendmail(from_addr=my_email, to_addrs="pallavpv200@gmail.com", msg="Happy Birthday")
+# connection.sendmail(from_addr=my_email, to_addrs="anurag.podder2@gmail.com", msg="Happy Birthday")
 # connection.close()
 
 # import datetime as dt
